@@ -28,10 +28,14 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
 }
 
 nav ul li a:hover {
+  color: #f4b400;
+}
+
+nav ul li a:active {
+  font-weight: bold;
   color: #f4b400;
 }
 
@@ -125,6 +129,3 @@ footer {
   margin-top: 20px;
 }
 
-nav ul li a.active {
-  color: #f4b400;
-}
